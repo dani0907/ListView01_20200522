@@ -25,12 +25,16 @@ public class MainActivity extends BaseActivity {
 
     @Override
     public void setupEvents() {
-
+        addStudents();
     }
 
     @Override
     public void setValues() {
 
+
+    }
+
+    void addStudents(){
         ourClassStudentList.add(new Student("조경진", "서울시 은평구"));
         ourClassStudentList.add(new Student("강희진", "인천시 남동구"));
         ourClassStudentList.add(new Student("구현정", "서울시 종로구"));
