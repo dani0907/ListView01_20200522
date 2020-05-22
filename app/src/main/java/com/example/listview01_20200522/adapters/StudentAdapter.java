@@ -33,7 +33,7 @@ public class StudentAdapter extends ArrayAdapter<Student> {
         View row = convertView;
 
         if(row == null){
-            row = inf.inflate(R.layout.student_list_item, null)
+            row = inf.inflate(R.layout.student_list_item, null);
         }
 
         return row;
